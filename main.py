@@ -1,4 +1,8 @@
 import csv
+import sys
+
+# Increase the field size limit
+csv.field_size_limit(sys.maxsize)
 
 csv_file_path = 'path_to_your_csv_file.csv'
 
